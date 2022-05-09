@@ -1,0 +1,15 @@
+#root {
+    width: 1024px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.greeting,
+.day,
+.time,
+.newYear {
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 10px;
+}
