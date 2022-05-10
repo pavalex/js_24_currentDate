@@ -3,9 +3,8 @@
 const root = document.querySelector('#root');
 
 const day = new Date().toLocaleDateString('ru', {weekday: 'long'});
-const nextDate = new Date("1 january 2023");
+const nextDate = new Date(new Date().getFullYear() + 1, 0, 1, 0, 0, 0);
 const dateNow = new Date().getTime();
-
 
 const words = function (number, arr) {
     let count = Math.abs(number) % 100;
